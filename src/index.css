@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+
+.shadow-blackish {
+  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hover\:shadow-glow:hover {
+  box-shadow: 0 0 12px 4px rgba(253, 224, 71, 0.7); /* yellow-300 glow */
+}
